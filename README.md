@@ -11,3 +11,5 @@
    ```python large_file_finder.py -s 100MB```<br />
    or<br />
    ``` many other ways can be used to display the files that are there in the folder to display the required files as per the needs of the user```<br />
+4. empty_folder_cleaner.py: a simple python program to delete empty folders in a given directory.Following are the methods to run the script : <br />
+```python empty_folder_cleaner.py /path/to/your/folder```
