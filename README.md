@@ -13,3 +13,18 @@
    ``` many other ways can be used to display the files that are there in the folder to display the required files as per the needs of the user```<br />
 4. empty_folder_cleaner.py: a simple python program to delete empty folders in a given directory.Following are the methods to run the script : <br />
 ```python empty_folder_cleaner.py /path/to/your/folder```
+
+5. file_age_analysis.py: this is a simple python program to scan a given directory and compute age based on teh modified time and all accordingly. How to use this program : < br/>
+```
+# Analyze current directory, show groups by age
+python file_age_analysis.py --group
+
+# Find files not accessed in more than 60 days
+python file_age_analysis.py /path/to/dir --stale 60
+
+# Show files modified in last 7 days
+python file_age_analysis.py /path/to/dir --recent 7
+
+# Combine options
+python file_age_analysis.py /path/to/dir --stale 30 --recent 15 --group
+```
