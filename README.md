@@ -18,13 +18,16 @@
 ```
 # Analyze current directory, show groups by age
 python file_age_analysis.py --group
-
+```
+```
 # Find files not accessed in more than 60 days
 python file_age_analysis.py /path/to/dir --stale 60
-
+```
+```
 # Show files modified in last 7 days
 python file_age_analysis.py /path/to/dir --recent 7
-
+```
+```
 # Combine options
 python file_age_analysis.py /path/to/dir --stale 30 --recent 15 --group
 ```
