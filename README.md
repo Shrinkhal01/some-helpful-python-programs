@@ -15,23 +15,32 @@
 ```python empty_folder_cleaner.py /path/to/your/folder```
 
 5. file_age_analysis.py: this is a simple python program to scan a given directory and compute age based on teh modified time and all accordingly. How to use this program : < br/>
-
-# Analyze current directory, show groups by age
+- Analyze current directory, show groups by age
 ```
 python file_age_analysis.py --group
 ```
-
-# Find files not accessed in more than 60 days
+- Find files not accessed in more than 60 days
 ```
 python file_age_analysis.py /path/to/dir --stale 60
 ```
-
-# Show files modified in last 7 days
+- Show files modified in last 7 days
 ```
 python file_age_analysis.py /path/to/dir --recent 7
 ```
-
-# Combine options
+- Combine options
 ```
 python file_age_analysis.py /path/to/dir --stale 30 --recent 15 --group
+```
+6. hidden_file_finder.py: Find and manage hidden files across platforms. Cross-platform tool to discover, analyze, and manage hidden files and directories.How to use this program : < bt/>
+- Scan current directory
+```
+python hidden_file_finder.py
+```
+- Scan specific directory recursively
+```
+python hidden_file_finder.py /home/user/Documents
+```
+- Scan only current level (no subdirectories)
+```
+python hidden_file_finder.py --no-recursive
 ```
