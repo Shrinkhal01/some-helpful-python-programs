@@ -44,3 +44,4 @@ python hidden_file_finder.py /home/user/Documents
 ```
 python hidden_file_finder.py --no-recursive
 ```
+7. disk_usage_monitor.py: 
