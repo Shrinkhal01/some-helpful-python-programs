@@ -44,4 +44,20 @@ python hidden_file_finder.py /home/user/Documents
 ```
 python hidden_file_finder.py --no-recursive
 ```
-7. disk_usage_monitor.py: 
+7. disk_usage_monitor.py: This file contains the code that continuously monitors disk usage on a system and sends alerts (via console, email, log files, or system notifications) if disk space usage exceeds configurable warning or critical thresholds.
+```
+python disk_usage_monitor.py
+```
+8.file_hasher.py : A comprehensive file hashing utility with extensive features for integrity checking. 
+
+```
+python file_hasher.py document.pdf
+```
+
+```
+python file_hasher.py document.pdf -m md5 sha256 sha512
+```
+
+```
+python file_hasher.py /path/to/directory -r
+```
