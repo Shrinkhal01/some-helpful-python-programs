@@ -61,3 +61,11 @@ python file_hasher.py document.pdf -m md5 sha256 sha512
 ```
 python file_hasher.py /path/to/directory -r
 ```
+8.csv_to_json.py : A comprehensive CSV to JSON converter that works on any system with flexible command-line options.
+
+```
+python csv_to_json.py data.csv results.json
+```
+```
+python csv_to_json.py data.csv
+```
