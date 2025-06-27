@@ -65,6 +65,13 @@ python csv_to_json.py data.csv
 ```
 9.git_repo_cleaner.py : Simple Git Repository Cleaner. Removes .pyc, .DS_Store, and other unwanted files.How to use :
 ```
-cd /path/to/your/git/repo
+cd path
 python git_repo_cleaner.py
+```
+10.media_organizer.py : Sort images/videos by resolution/duration.
+```
+pip install Pillow
+
+cd path
+python media_organizer.py
 ```
