@@ -71,7 +71,8 @@ python git_repo_cleaner.py
 10.media_organizer.py : Sort images/videos by resolution/duration.
 ```
 pip install Pillow
-
+```
+```
 cd path
 python media_organizer.py
 ```
