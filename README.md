@@ -76,3 +76,10 @@ pip install Pillow
 cd path
 python media_organizer.py
 ```
+11. photo_duplicate_cleaner.py : Find visually similar images finds the larger and deletes the smaller one. How to use :
+
+    ```
+    cd /path/to/photos
+    python photo_duplicate_cleaner.py
+    ```
+    
